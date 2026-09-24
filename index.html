@@ -3,57 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website - CSS Fundamentals</title>
-    <!-- Link your stylesheet -->
+    <title>Paws & Claws - Cat Adoption Agency</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#footer">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <h1>Paws & Claws Adoption</h1>
+        <nav>
+            <ul>
+                <li><a href="#breeds">Available Breeds</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- Main Content Area -->
-    <main>
-        <!-- Home Section -->
-        <section id="home" class="home">
-            <h1>Welcome to My Creative Portfolio</h1>
-            <p>Showcasing modern web design and development projects.</p>
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="hero">
+            <h2>Find Your Feline Friend</h2>
+            <p>Explore our adorable cat breeds looking for a loving forever home.</p>
         </section>
 
-        <!-- Portfolio Container & Flexbox Items -->
-        <section id="portfolio" class="portfolio-container">
-            <!-- Portfolio Item 1 -->
-            <div class="portfolio-item">
-                <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Project 1">
-                <h3>Project One</h3>
-                <p>A responsive UI design built with modern CSS layout techniques.</p>
+        <!-- Flexbox Container for Cat Breeds -->
+        <section id="breeds" class="breed-container">
+            <!-- Cat Card 1 -->
+            <div class="breed-card">
+                <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80" alt="Siamese Cat">
+                <h3>Siamese</h3>
+                <p>Affectionate, highly vocal, and deeply social cats with striking blue eyes.</p>
+                <button>Adopt Me</button>
             </div>
 
-            <!-- Portfolio Item 2 -->
-            <div class="portfolio-item">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Project 2">
-                <h3>Project Two</h3>
-                <p>An analytics dashboard featuring clean cards and visual hierarchy.</p>
+            <!-- Cat Card 2 -->
+            <div class="breed-card">
+                <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=600&q=80" alt="Maine Coon Cat">
+                <h3>Maine Coon</h3>
+                <p>Gentle giants known for their friendly nature, fluffy coats, and playful demeanor.</p>
+                <button>Adopt Me</button>
             </div>
 
-            <!-- Portfolio Item 3 -->
-            <div class="portfolio-item">
-                <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=600&q=80" alt="Project 3">
-                <h3>Project Three</h3>
-                <p>A creative agency website crafted with custom styling and flexbox.</p>
+            <!-- Cat Card 3 -->
+            <div class="breed-card">
+                <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=600&q=80" alt="British Shorthair Cat">
+                <h3>British Shorthair</h3>
+                <p>Calm, easygoing companions with plush coats and round, expressive faces.</p>
+                <button>Adopt Me</button>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
     <footer id="footer">
-        <p>&copy; 2026 Creative Design Agency. All rights reserved.</p>
+        <p>&copy; 2026 Paws & Claws Adoption Agency. All rights reserved.</p>
     </footer>
 
 </body>
